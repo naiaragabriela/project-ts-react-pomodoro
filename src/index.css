@@ -9,7 +9,7 @@ body {
   font-family: sans-serif;
   background: #41e1ba;
   transition: background-color 300ms ease-in-out;
-  line-height: 1.5;
+  line-height: 1.5
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
 }
 
 .working {
-  background: #ef5d50;
+  background: #EF5D50;
 }
 
 .hidden {
@@ -30,7 +30,7 @@ body {
   margin: 50px 20px;
   padding: 20px;
   border-radius: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
 .pomodoro h2 {
@@ -38,16 +38,15 @@ body {
   text-align: center;
 }
 
-
 .pomodoro .timer {
   font-size: 6rem;
   text-align: center;
 }
 
 .pomodoro .controls {
-display: flex;
-align-items: center;
-justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .pomodoro button {
@@ -61,10 +60,10 @@ justify-content: space-evenly;
 }
 
 .working .pomodoro button {
-  background: #ef5d50;
+  background: #EF5D50;
   color: #fff;
 }
 
-.pomodoro .detaisl {
+.pomodoro .details {
   margin: 20px 0;
 }
